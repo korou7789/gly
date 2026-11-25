@@ -1,0 +1,9 @@
+#palette {
+    display: block;
+    outline: 1px solid #888;
+    margin-bottom: 0.75rem;
+}
+
+#output {
+    outline: 1px solid #888;
+}

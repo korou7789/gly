@@ -3,7 +3,7 @@ const PIXEL_SCALE = 8;
 const CELL_SIZE = GLYPH_SIZE * PIXEL_SCALE;
 
 const { instance } = await WebAssembly.instantiateStreaming(
-    fetch("../zig-out/bin/textmode.wasm"),
+    fetch("../zig-out/bin/gly.wasm"),
 );
 const {
     memory, cells_ptr, grid_width, grid_height, set_cell, glyphs_ptr, glyph_count,
